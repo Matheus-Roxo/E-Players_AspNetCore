@@ -30,7 +30,8 @@ namespace E_Players_AspNetCore.Controllers
         {
 
             Equipe novaEquipe = new Equipe();
-            //*******PERGUNTAR // novaEquipe.IdEquipe = Int32.Parse( form["IdEquipe"] );
+            
+            novaEquipe.IdEquipe = Int32.Parse( form["IdEquipe"] );
             novaEquipe.Nome = form["Nome"];
 
             // upload inicio
